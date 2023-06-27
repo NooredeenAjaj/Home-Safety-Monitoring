@@ -26,10 +26,12 @@ A Hall effect sensor for detecting magnetism. The sensor's output remains high a
 Additionally, we will require a breadboard and several jumpers to facilitate connections. A micro-USB cable is also necessary for connection to our computer, which will also function as our power source. 
 
 | Material | price | Where to by it |
-|----------|----------|----------|
-|![Icon](https://github.com/NooredeenAjaj/Home-Safety-Monitoring/blob/main/img/41015730.jpg)  | Värde 1  | Värde 2  |
-| Rad 2    | Värde 3  | Värde 4  |
-| Rad 3    | Värde 5  | Värde 6  |
+|:--------:|:-------:|:-------:|
+|<img src="https://github.com/NooredeenAjaj/Home-Safety-Monitoring/blob/main/img/41015730.jpg" width="200" height="200"> | 39.00 SEK  | [Temperatursensor NTC electrokit](https://www.electrokit.com/uploads/productimage/41015/41015730.jpg) |
+|<img src="https://www.electrokit.com/uploads/productimage/41015/41015727.jpg" width="200" height="200"> | 39.00 SEK  | [ljussensor electrokit](https://www.electrokit.com/produkt/ljussensor/) |
+|<img src="https://www.electrokit.com/uploads/productimage/41015/41015732.jpg" width="200" height="200"> | 29.00 SEK  | [ Temperatursensor NTC electrokit](https://www.electrokit.com/produkt/temperatursensor-ntc/) |
+
+
 
 
 Explain all material that is needed. All sensors, where you bought them and their specifications. Please also provide pictures of what you have bought and what you are using.
