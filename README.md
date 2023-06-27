@@ -27,7 +27,7 @@ Additionally, we will require a breadboard and several jumpers to facilitate con
 
 | Material | price | Where to by it |
 |----------|----------|----------|
-| ![Icon]  img/41015730.jpg   | Värde 1  | Värde 2  |
+|[ ](https://github.com/NooredeenAjaj/Home-Safety-Monitoring/blob/main/img/41015730.jpg)  | Värde 1  | Värde 2  |
 | Rad 2    | Värde 3  | Värde 4  |
 | Rad 3    | Värde 5  | Värde 6  |
 
