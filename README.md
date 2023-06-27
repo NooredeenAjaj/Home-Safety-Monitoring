@@ -25,6 +25,11 @@ A Hall effect sensor for detecting magnetism. The sensor's output remains high a
 
 Additionally, we will require a breadboard and several jumpers to facilitate connections. A micro-USB cable is also necessary for connection to our computer, which will also function as our power source. 
 
+| Kolumn 1 | Kolumn 2 | Kolumn 3 |
+|----------|----------|----------|
+| Rad 1    | Värde 1  | Värde 2  |
+| Rad 2    | Värde 3  | Värde 4  |
+| Rad 3    | Värde 5  | Värde 6  |
 
 
 Explain all material that is needed. All sensors, where you bought them and their specifications. Please also provide pictures of what you have bought and what you are using.
