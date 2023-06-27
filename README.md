@@ -36,13 +36,34 @@ Additionally, we will require a breadboard and several jumpers to facilitate con
 |<img src="https://www.electrokit.com/uploads/productimage/41015/41015693.jpg" width="200" height="200"> | 29.00 SEK  | [ Jumper cables M-to-M electrokit](https://www.electrokit.com/produkt/labsladd-1-pin-hane-hane-150mm-10-pack/) |
 
 
+# Computer setup
 
 
-Explain all material that is needed. All sensors, where you bought them and their specifications. Please also provide pictures of what you have bought and what you are using.
 
-List of material
-What the different things (sensors, wires, controllers) do - short specifications
-Where you bought them and how much they cost
+
+
+
+
+## Step-by-step
+
+
+1. install Python.
+2. Download and install NodeJS. 
+3. Make sure to acquire the current version, not LTS.
+4. install the IDE VSCode.
+5. add the Pymakr plugin to your VS Cod 
+6.Update firmware on the Raspberry Pi Pico:
+
+* Download the MicroPython firmware. This is a uf2 file. Ensure to get the latest one from Releases, not Nightly builds.
+* Connect the micro-USB cable to the Raspberry Pi Pico.
+* While pressing the BOOTSEL button on the board, connect the other end of the micro-USB cable to your computer. You can release the BOOTSEL button after plugging it in.
+* A new drive named RPI-RP2, which is the Raspberry Pi Pico storage, should appear in your file system. Transfer the uf2 file that you downloaded earlier into this storage.
+*  Wait for the board to automatically disconnect and reconnect (or just discounnect ).
+<br>
+If you are using a Linux machine, you need to perform the following extra step:
+
+*  For Debian/Fedora: Enter the following command into the terminal: `sudo usermod -a -G dialout $USER`
+* For Arch: Enter the following command into the terminal:`sudo usermod -a -G uucp $USER`  
 
 
 
