@@ -27,8 +27,7 @@ Additionally, we will require a breadboard and several jumpers to facilitate con
 
 | Material | price | Where to by it |
 |----------|----------|----------|
-|![GitHub Logo]([https://example.com/images/logo.png](https://www.electrokit.com/produkt/halleffektsensor-digital/))
-    | Värde 1  | Värde 2  |
+|    DSF      | Värde 1  | Värde 2  |
 | Rad 2    | Värde 3  | Värde 4  |
 | Rad 3    | Värde 5  | Värde 6  |
 
