@@ -47,23 +47,29 @@ Additionally, we will require a breadboard and several jumpers to facilitate con
 ## Step-by-step
 
 
-1. install Python.
-2. Download and install NodeJS. 
+1. install [Python](https://www.python.org/downloads/macos/).
+2. Download and install [NodeJS](https://nodejs.org/en/download). 
 3. Make sure to acquire the current version, not LTS.
-4. install the IDE VSCode.
+4. install the [IDE VSCode](https://code.visualstudio.com/Download).
 5. add the Pymakr plugin to your VS Cod 
+
+- Open VS Code.
+- Access the Extensions Manager by:
+- Clicking on the Extensions icon located on the left panel,
+- Selecting 'Extensions' from the 'View' dropdown menu, or
+
+- Once you're in the Extensions Manager, search for 'Pymakr'.
+- Select 'Install' to add the Pymakr extension to your VS Code.
+
 6.Update firmware on the Raspberry Pi Pico:
 
-* Download the MicroPython firmware. This is a uf2 file. Ensure to get the latest one from Releases, not Nightly builds.
+* Download the MicroPython [firmware ](https://micropython.org/download/rp2-pico-w/).. Ensure to get the latest one from Releases.
 * Connect the micro-USB cable to the Raspberry Pi Pico.
 * While pressing the BOOTSEL button on the board, connect the other end of the micro-USB cable to your computer. You can release the BOOTSEL button after plugging it in.
 * A new drive named RPI-RP2, which is the Raspberry Pi Pico storage, should appear in your file system. Transfer the uf2 file that you downloaded earlier into this storage.
 *  Wait for the board to automatically disconnect and reconnect (or just discounnect ).
 <br>
-If you are using a Linux machine, you need to perform the following extra step:
-
-*  For Debian/Fedora: Enter the following command into the terminal: `sudo usermod -a -G dialout $USER`
-* For Arch: Enter the following command into the terminal:`sudo usermod -a -G uucp $USER`  
+  
 
 
 
