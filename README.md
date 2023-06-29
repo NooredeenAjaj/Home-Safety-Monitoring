@@ -71,6 +71,17 @@ Additionally, we will require a breadboard and several jumpers to facilitate con
 <br>
   
 
+# Putting everything together
+
+bilden av kretsen 
+
+# platform 
+The platform of choice for this project is [Adafruit](https://www.adafruit.com). It is free and ideal for beginners due to its ease of use. Additionally, it offers simple visualization tools for presenting your data.
+ Adafruit is a cloud-based service and Internet of Things platform. the user have the opportunity to  log, analyze, and visualize data from electronic devices. 
+### obs 
+Platforms like AWS IoT, Google Cloud IoT, or Microsoft Azure IoT provide more advanced features, but they also require more advanced knowledge to use effectively. it is a good ide to try them if we want to scale this project. 
+
+
 
 
 
