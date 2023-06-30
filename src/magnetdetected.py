@@ -7,8 +7,7 @@ def is_magnet_detected():
     digitalValue = digitalPin.value()
    
     if digitalValue == True:
-       return "Worning! someone opens the door"
+       return"Alert! Door has been opened."
 
     else:
-        return "Every thing is ok "
-
+        return "Status: All secure." 
