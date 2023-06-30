@@ -85,7 +85,9 @@ The platform of choice for this project is [Adafruit](https://www.adafruit.com).
 Platforms like AWS IoT, Google Cloud IoT, or Microsoft Azure IoT provide more advanced features, but they also require more advanced knowledge to use effectively. it is a good ide to try them if we want to scale this project. 
 
 # Code 
-
+This code is for connecting the Temperatursensor NTC. 
+First, we import the necessary libraries, such as machine and ADC(analog-to-digital converter). 
+Then, we read the value from the sensor and convert it to Celsius.
 ``` python
 def get_temp_humidity():
 
@@ -106,6 +108,7 @@ def get_temp_humidity():
         print("Exception occurred", error)
         return None 
 ```
+
 
 
 
