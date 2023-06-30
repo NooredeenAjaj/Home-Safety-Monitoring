@@ -132,3 +132,38 @@ def check_light():
         return "w:day-sunny"
 
 ```
+
+This code is located in the boot.py file, where we place the code we want to run first. The first thing we want to do is establish a WiFi connection. The function attempts to connect by sending a request to the WiFi; if the connection is successful, the IP address assigned to our board is returned.
+``` python
+
+def do_connect():
+    import network
+    from time import sleep
+    from secrets import secrets
+    import machine
+
+    wlan = network.WLAN(network.STA_IF)        
+
+    if not wlan.isconnected():                 
+        print('connecting to network...')
+        wlan.active(True)                     
+       
+        wlan.config(pm = 0xa11140)
+        wlan.connect(secrets["ssid"], secrets["password"]) 
+        print('Waiting for connection...', end='')
+       
+        while not wlan.isconnected() and wlan.status() >= 0:
+            print('.', end='')
+            sleep(1)
+ 
+    ip = wlan.ifconfig()[0]
+    print('\nConnected on {}'.format(ip))
+    return ip 
+
+
+
+try:
+    ip = do_connect()
+except KeyboardInterrupt:
+    print("Keyboard interrupt")
+```
