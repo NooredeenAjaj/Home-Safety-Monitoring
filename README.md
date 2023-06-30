@@ -83,5 +83,5 @@ Platforms like AWS IoT, Google Cloud IoT, or Microsoft Azure IoT provide more ad
 
 
 
-
+|<img src="https://www.electrokit.com/uploads/productimage/41016/95736_1280x720.jpg" width="200" height="200">
 
