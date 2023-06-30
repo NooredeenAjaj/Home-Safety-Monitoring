@@ -72,6 +72,9 @@ Additionally, we will require a breadboard and several jumpers to facilitate con
   
 
 # Putting everything together
+### obs 
+For more detailed information, please refer to the user guide mentioned above.
+<img src="./img/IMG_5199.jpg" width="800" height="500">
 
 bilden av kretsen 
 
@@ -83,5 +86,5 @@ Platforms like AWS IoT, Google Cloud IoT, or Microsoft Azure IoT provide more ad
 
 
 
-<img src="./img/IMG_5199.heic" width="200" height="200">
+
 
