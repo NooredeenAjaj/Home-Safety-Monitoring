@@ -25,7 +25,7 @@ led = Pin("LED", Pin.OUT)
 
 AIO_SERVER = "io.adafruit.com"
 AIO_PORT = 1883
-AIO_USER = "noorMustafa"
+AIO_USER = "yourname"
 AIO_KEY = "ad"
 
 AIO_CLIENT_ID = ubinascii.hexlify(machine.unique_id())  
