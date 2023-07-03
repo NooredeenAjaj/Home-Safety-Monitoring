@@ -20,8 +20,6 @@ led = Pin("LED", Pin.OUT)
 
 
 
-WIFI_SSID = "Tele2_763d45"
-WIFI_PASS = "dtm2nxum"  
 
 
 
