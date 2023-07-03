@@ -83,7 +83,7 @@ try:
         client.publish(topic=AIO_TEMP_FEED, msg=str(get_temp()))
         client.publish(topic=AIO_LIGHTS_FEED , msg=str(check_light()))
         client.publish(topic=AIO_DOOR_FEED , msg=str(is_magnet_detected()))
-        print(is_magnet_detected())
+
         
 
 
