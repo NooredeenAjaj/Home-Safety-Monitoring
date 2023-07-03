@@ -38,8 +38,6 @@ AIO_DOOR_FEED = "noorMustafa/feeds/door"
 
 
 
-def do_connect():
-    return connect()
 
 
 
@@ -62,7 +60,7 @@ def sub_cb(topic, msg):
 
 # Try WiFi Connection
 try:
-    ip = do_connect()
+    ip = connect()
 except KeyboardInterrupt:
     print("Keyboard interrupt")
 
