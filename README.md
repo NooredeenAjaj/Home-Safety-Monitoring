@@ -231,5 +231,7 @@ Wi-Fi is good enough for the most . But, Wi-Fi consume battery  because it sends
 MQTT is a simple system that doesn't really affect the range .MQTT is made to use very little power and data, which is why it's great for Internet of Things (IoT) devices. It uses a system where devices only 'wake up' and use power when they need to send data or get data .
 
 
+# Presenting the data
 
-
+<img src="./img/IMG_5199.jpg" width="800" height="500">
+<img src="./img/IMG_5199.jpg" width="800" height="500">
