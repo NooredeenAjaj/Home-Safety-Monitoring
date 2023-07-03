@@ -136,7 +136,7 @@ def check_light():
 This code is located in the boot.py file, where we place the code we want to run first. The first thing we want to do is establish a WiFi connection. The function attempts to connect by sending a request to the WiFi; if the connection is successful, the IP address assigned to our board is returned.
 ``` python
 
-def do_connect():
+def connect():
     import network
     from time import sleep
     from secrets import secrets
@@ -167,3 +167,5 @@ try:
 except KeyboardInterrupt:
     print("Keyboard interrupt")
 ```
+
+
