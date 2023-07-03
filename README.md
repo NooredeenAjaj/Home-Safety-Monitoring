@@ -221,3 +221,15 @@ try:
 
         time.sleep(8)
 ```
+
+# Transmitting the data / connectivity
+
+The data from the  sensors is transmitted to the Adafruit platform via the internet using the MQTT protocol over a Wi-Fi connection.
+
+Wi-Fi is good enough for the most . But, Wi-Fi consume battery  because it sends a lot of data and stays connected all the time. This can be a problem for devices running on battery. To save battery, you can set your device to sleep when it's not sending data.
+
+MQTT is a simple system that doesn't really affect the range .MQTT is made to use very little power and data, which is why it's great for Internet of Things (IoT) devices. It uses a system where devices only 'wake up' and use power when they need to send data or get data .
+
+
+
+
