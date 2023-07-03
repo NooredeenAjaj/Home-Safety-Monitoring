@@ -181,11 +181,6 @@ from tempsensor import get_temp
 from lightsensor import check_light
 from magnetdetected import is_magnet_detected
 
-
-led = Pin("LED", Pin.OUT)  
-
-
-
 AIO_SERVER = "io.adafruit.com"
 AIO_PORT = 1883
 AIO_USER = "yourname"
@@ -196,15 +191,6 @@ AIO_LIGHTS_FEED = "noorMustafa/feeds/lighting"
 AIO_TEMP_FEED = "noorMustafa/feeds/temperature"
 AIO_DOOR_FEED = "noorMustafa/feeds/door"
 
-
-def sub_cb(topic, msg): 
-    print((topic, msg))  
-    if msg == b"ON": 
-        led.on()  
-    elif msg == b"OFF": 
-        led.off() 
-    else:  
-        print("Unknown message")  
 
 
 
