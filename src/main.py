@@ -29,7 +29,7 @@ WIFI_PASS = "dtm2nxum"
 AIO_SERVER = "io.adafruit.com"
 AIO_PORT = 1883
 AIO_USER = "noorMustafa"
-AIO_KEY = "aio_oybT105q6s6O3wzZk5kq2wO63iph"
+AIO_KEY = "ad"
 
 AIO_CLIENT_ID = ubinascii.hexlify(machine.unique_id())  
 AIO_LIGHTS_FEED = "noorMustafa/feeds/lighting"
