@@ -89,7 +89,7 @@ This code is for connecting the Temperatursensor NTC.
 First, we import the necessary libraries, such as machine and ADC(analog-to-digital converter). 
 Then, we read the value from the sensor and convert it to Celsius.
 ``` python
-def get_temp_humidity():
+def get_temp():
 
     thermistor_pin = ADC(28)
 
@@ -163,7 +163,7 @@ def connect():
 
 
 try:
-    ip = do_connect()
+    ip = connect()
 except KeyboardInterrupt:
     print("Keyboard interrupt")
 ```
@@ -196,7 +196,7 @@ AIO_DOOR_FEED = "noorMustafa/feeds/door"
 
 # Try WiFi Connection
 try:
-    ip = do_connect()
+    ip = connect()
 except KeyboardInterrupt:
     print("Keyboard interrupt")
 
