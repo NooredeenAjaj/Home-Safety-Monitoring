@@ -172,7 +172,8 @@ except KeyboardInterrupt:
 
 
 
-
+Here in the main.py, we are importing methods that fetch data from sensors. Then, we attempt to send this data to Adafruit.
+these global variables that are initialized with feed names from Adafruit. These global variables are used to send data to the correct dashboard.
 
 ``` python
 
@@ -182,9 +183,6 @@ from magnetdetected import is_magnet_detected
 
 
 led = Pin("LED", Pin.OUT)  
-
-
-
 
 
 
@@ -199,18 +197,6 @@ AIO_TEMP_FEED = "noorMustafa/feeds/temperature"
 AIO_DOOR_FEED = "noorMustafa/feeds/door"
 
 
-
-
-
-
-def do_connect():
-    return connect()
-
-
-
-
-
-
 def sub_cb(topic, msg): 
     print((topic, msg))  
     if msg == b"ON": 
@@ -219,9 +205,6 @@ def sub_cb(topic, msg):
         led.off() 
     else:  
         print("Unknown message")  
-
-
-
 
 
 
@@ -248,11 +231,6 @@ try:
         client.publish(topic=AIO_TEMP_FEED, msg=str(get_temp()))
         client.publish(topic=AIO_LIGHTS_FEED , msg=str(check_light()))
         client.publish(topic=AIO_DOOR_FEED , msg=str(is_magnet_detected()))
-
-        
-
-
-    
 
 
 
