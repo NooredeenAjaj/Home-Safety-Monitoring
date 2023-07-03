@@ -25,7 +25,6 @@ WIFI_PASS = "dtm2nxum"
 
 
 
-
 AIO_SERVER = "io.adafruit.com"
 AIO_PORT = 1883
 AIO_USER = "noorMustafa"
@@ -43,40 +42,6 @@ AIO_DOOR_FEED = "noorMustafa/feeds/door"
 
 def do_connect():
     return connect()
-
-
-
-
-
-
-
-
-def send_tempsensor_data():
-
-    temp = get_temp()
-    
-    try:
-        client.publish(topic=AIO_TEMP_FEED, msg=str(temp))
-        print("DONE")
-        print(temp)
-    except Exception as e:
-        print("FAILED")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -113,14 +78,11 @@ client.subscribe(AIO_LIGHTS_FEED)
 print("Connected to %s, subscribed to %s topic" % (AIO_SERVER, AIO_LIGHTS_FEED))
 
 
-try:  # Code between try: and finally: may cause an error
-    # so ensure the client disconnects the server if
-    # that happens.
-    while 1:  # Repeat this loop forever
-        client.check_msg()  # Action a message if one is received. Non-blocking.
+try: 
+    while 1:  
+        client.check_msg() 
  
-        send_tempsensor_data()
-        print(check_light())
+        client.publish(topic=AIO_TEMP_FEED, msg=str(get_temp()))
         client.publish(topic=AIO_LIGHTS_FEED , msg=str(check_light()))
         client.publish(topic=AIO_DOOR_FEED , msg=str(is_magnet_detected()))
         print(is_magnet_detected())
@@ -132,7 +94,7 @@ try:  # Code between try: and finally: may cause an error
 
 
         time.sleep(8)
-finally:  # If an exception is thrown ...
-    client.disconnect()  # ... disconnect the client and clean up.
+finally: 
+    client.disconnect()
     client = None
     print("Disconnected from Adafruit IO.")
