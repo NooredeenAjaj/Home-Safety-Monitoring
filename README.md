@@ -233,5 +233,5 @@ MQTT is a simple system that doesn't really affect the range .MQTT is made to us
 
 # Presenting the data
 
-<img src="./img/OPENED.jpg" width="800" height="500">
-<img src="./img/CLOSED.jpg" width="800" height="500">
+<img src="./img/OPENED.jpg" width="900" height="500">
+<img src="./img/CLOSED.jpg" width="900" height="500">
