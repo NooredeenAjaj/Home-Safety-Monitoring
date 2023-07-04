@@ -254,7 +254,7 @@ It's worth mentioning that the permitted calls per minute for a free Adafruit ac
 <img src="./img/closeDoor.jpg" width="400" height="200">
 <img src="./img/CLOSED.jpg" width="400" height="200">
 the door is oppen 
-<img src="./img/oppenDoor2.jpg" width="400" height="400">
+<img src="./img/oppenDoor2.jpg" width="400" height="200">
 <img src="./img/OPENED.jpg" width="400" height="200">
 
 
