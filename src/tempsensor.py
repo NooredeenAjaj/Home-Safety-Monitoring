@@ -8,7 +8,7 @@ from math import log
 BETA = 3950
 KELVIN_CONSTANT = 273.15
 
-def get_temp_humidity():
+def get_temp():
 
     thermistor_pin = ADC(28)
 
