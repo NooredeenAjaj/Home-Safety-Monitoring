@@ -72,10 +72,10 @@ Additionally, we will require a breadboard and several jumpers to facilitate con
 
 # Putting everything together
 ### obs 
-For more detailed information, please refer to the user guide mentioned above.
+
 <img src="./img/IMG_5199.jpg" width="800" height="500">
 
-bilden av kretsen 
+
 
 # platform 
 The platform of choice for this project is [Adafruit](https://www.adafruit.com). It is free and ideal for beginners due to its ease of use. Additionally, it offers simple visualization tools for presenting your data.
