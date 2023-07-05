@@ -1,6 +1,7 @@
 # Home-Safety-Monitoring
-Noor Eidirhn Mustafa 
-id: nm222up
+ Name: Noor Eidirhn Mustafa 
+ <br>
+ID: nm222up
 
 # overview
 This project is about keeping an eye on home safety. The objective is achieved through three different sensors: temperature, light, and magnetic field sensors. The data received from these sensors will be visualized using Adafruit.
