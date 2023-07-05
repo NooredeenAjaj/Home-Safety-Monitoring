@@ -234,9 +234,9 @@ MQTT is a simple system that doesn't really affect the range .MQTT is made to us
 # Presenting the data
 To begin with, we create feeds that function as APIs to the dashboard. Please follow the link to create [different feeds](https://learn.adafruit.com/adafruit-io-basics-feeds/creating-a-feed) . The feeds used in this project are:
 
-"noorMustafa/feeds/lighting"
-"noorMustafa/feeds/temperature"
-"noorMustafa/feeds/door"
+- "noorMustafa/feeds/lighting"
+- "noorMustafa/feeds/temperature"
+- "noorMustafa/feeds/door"
 These three feeds are linked to a dashboard where the results of all three sensors are presented. se how to create [a dashboard ](https://learn.adafruit.com/adafruit-io-basics-dashboards)
 It's worth mentioning that the permitted calls per minute for a free Adafruit account are 30 data points per minute. To maintain the limit for a free account, we send three data points every 8 seconds.
 
