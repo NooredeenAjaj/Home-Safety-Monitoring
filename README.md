@@ -8,7 +8,7 @@ This is a project designed for beginners and, following this tutorial, the estim
 
 
 # Objective
-The project aims to improve home security by observing unexpected door openings and tracking the temperature.This device is designed to make homes safer.This device is designed to make homes safer. It uses temperature, light, and magnetic sensors to provide immediate information that can prevent accidents or damages. This project will tell us important stuff about how safe our home is. It will let us know right away if doors are opened when they shouldn't be, or if it gets too hot, which could mean a fire. This can help us spot problems early and deal with them quickly. It can also help us to save energy by indicating when to turn off lights or heating systems.
+The project aims to improve home security by observing unexpected door openings and tracking the temperature.This device is designed to make homes safer. It uses temperature, light, and magnetic sensors to provide immediate information that can prevent accidents or damages. This project will tell us important stuff about how safe our home is. It will let us know right away if doors are opened when they shouldn't be, or if it gets too hot, which could mean a fire. This can help us spot problems early and deal with them quickly. It can also help us to save energy by indicating when to turn off lights or heating systems.
 # Material
 
 
