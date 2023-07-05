@@ -238,7 +238,7 @@ To begin with, we create feeds that function as APIs to the dashboard. Please fo
 - "noorMustafa/feeds/temperature"
 - "noorMustafa/feeds/door"
 <br>
-These three feeds are linked to a dashboard where the results of all three sensors are presented. se how to create [a dashboard ](https://learn.adafruit.com/adafruit-io-basics-dashboards)
+These three feeds are linked to a dashboard where the results of all three sensors are presented. se how to create a(https://learn.adafruit.com/adafruit-io-basics-dashboards)
 It's worth mentioning that the permitted calls per minute for a free Adafruit account are 30 data points per minute. To maintain the limit for a free account, we send three data points every 8 seconds.
 
 
