@@ -8,8 +8,7 @@ This is a project designed for beginners and, following this tutorial, the estim
 
 
 # Objective
-The goal of this project is to make homes safer. We use different sensors that give us immediate information, which could help prevent accidents or damage. Aside from keeping homes safe, we can also use this project to watch the temperature and light, and even save energy. It can tell us the best times to turn off lights or heating, which helps to use less energy. This project gives us real-time data about the safety and energy efficiency in our homes. It can tell us if a door is open when it should be closed, or if lights are on when they're not needed. 
-
+The project aims to improve home security by observing unexpected door openings and tracking the temperature.This device is designed to make homes safer.This device is designed to make homes safer. It uses temperature, light, and magnetic sensors to provide immediate information that can prevent accidents or damages. This project will tell us important stuff about how safe our home is. It will let us know right away if doors are opened when they shouldn't be, or if it gets too hot, which could mean a fire. This can help us spot problems early and deal with them quickly. It can also help us to save energy by indicating when to turn off lights or heating systems.
 # Material
 
 
