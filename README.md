@@ -8,7 +8,7 @@ This is a project designed for beginners and, following this tutorial, the estim
 
 
 # Objective
-The aim of this project is to enhance home security by employing a variety of sensors to gather real-time data, which could potentially be lifesaving. Beyond safety, this project could also be utilized for temperature and light monitoring, as well as energy conservation. By providing information on optimal times to switch off lights and heating systems, it fosters efficient energy usage.
+The goal of this project is to make homes safer. We use different sensors that give us immediate information, which could help prevent accidents or damage. Aside from keeping homes safe, we can also use this project to watch the temperature and light, and even save energy. It can tell us the best times to turn off lights or heating, which helps to use less energy.
 
 # Material
 
