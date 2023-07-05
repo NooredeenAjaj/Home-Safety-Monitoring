@@ -3,7 +3,7 @@ Noor Eidirhn Mustafa
 id: nm222up
 
 # overview
-The project pertains to home security monitoring. The objective is achieved through three different sensors: temperature, light, and magnetic field sensors. The data received from these sensors will be visualized using Adafruit.
+This project is about keeping an eye on home safety. The objective is achieved through three different sensors: temperature, light, and magnetic field sensors. The data received from these sensors will be visualized using Adafruit.
 This is a project designed for beginners and, following this tutorial, the estimated time required for completion is between 3 to 5 hours.
 
 
