@@ -239,8 +239,8 @@ To begin with, we create feeds that function as APIs to the dashboard. Please fo
 <br>
 These three feeds are linked to a dashboard where the results of all three sensors are presented.
 
-
-
+### Final thoughts
+I think this project went really well. For improvement, I would choose different sensors, ones that are more efficient and specifically designed for things like fire detection. I'd also prefer a better sensor for detecting door openings.
 
 
 <img src="./img/OPENED.jpg" width="900" height="500">
