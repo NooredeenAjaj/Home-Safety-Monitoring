@@ -5,21 +5,21 @@ ID: nm222up
 
 # overview
 This project is about keeping an eye on home safety. The objective is achieved through three different sensors: temperature, light, and magnetic field sensors. The data received from these sensors will be visualized using Adafruit.
-This is a project designed for beginners and, following this tutorial, the estimated time required for completion is between 3 to 5 hours.
+This is a project designed for beginners and following this tutorial, the estimated time required for completion is between 3 to 5 hours.
 
 
 # Objective
 The project aims to improve home security by observing unexpected door openings and tracking the temperature.This device is designed to make homes safer. It uses temperature, light, and magnetic sensors to provide immediate information that can prevent accidents or damages. This project will tell us important stuff about how safe our home is. It will let us know right away if doors are opened when they shouldn't be, or if it gets too hot, which could mean a fire. This can help us spot problems early and deal with them quickly. It can also help us to save energy by indicating when to turn off lights or heating systems.
+
 # Material
 
-
-For this project,  the microcontroller Raspberry Pi Pico WH is used . It offers numerous digital and analog inputs and outputs, and is equipped with a 2.4GHz wireless interface. For more info see [datasheet](https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf) .
+For this project, the microcontroller Raspberry Pi Pico WH is used . It offers numerous digital and analog inputs and outputs, and is equipped with a 2.4GHz wireless interface. For more info see [datasheet](https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf) .
 
 The temperature measurement, the Temperatursensor NTC was choosen, The reason is that it has a larger range. Its measurement range is sufficient for this project, with temperature accuracy from -55°C to +125°C.see [datasheet](https://www.electrokit.com/uploads/productfile/41015/41015732_-_Analog_Temperature_Sensor.pdf). 
 
 In order to measure the lighting in the room , we will use a Light sensor. It can be used as a simple light sensor where the amount of light determines the output signal. It can be directly connected to an analog input on a microcontroller. see [datasheet](https://www.electrokit.com/uploads/productfile/41015/41015727_-_Photoresistor_Module.pdf). 
 
-A Hall effect sensor for detecting magnetism. The sensor's output remains high as long as it is not in proximity to a magnet, and it pulls the output low when exposed to a magnetic field above a certain threshold. this sensor will  be placed nere by the door with a  magnet. see [datasheet](https://www.electrokit.com/uploads/productfile/41015/41015730_A314x-Datasheet.pdf) 
+A Hall effect sensor is used to detect magnetism. This sensor keeps its output high until it comes close to a magnet. When it senses a magnetic field over a certain level, the output goes low. This sensor will be put near the door with a magnet.  see [datasheet](https://www.electrokit.com/uploads/productfile/41015/41015730_A314x-Datasheet.pdf) 
 
 Additionally, we will require a breadboard and several jumpers to facilitate connections. A micro-USB cable is also necessary for connection to our computer, which will also function as our power source. 
 
@@ -94,9 +94,9 @@ Uploading
 
 # platform 
 The platform of choice for this project is [Adafruit](https://www.adafruit.com). It is free and ideal for beginners due to its ease of use. Additionally, it offers simple visualization tools for presenting your data.
- Adafruit is a cloud-based service and Internet of Things platform. the user have the opportunity to  log, analyze, and visualize data from electronic devices. 
+ Adafruit is a cloud-based service and Internet of Things platform. The user have the opportunity to  log, analyze, and visualize data from electronic devices. 
 ### obs 
-Platforms like AWS IoT, Google Cloud IoT, or Microsoft Azure IoT provide more advanced features, but they also require more advanced knowledge to use effectively. it is a good ide to try them if we want to scale this project. 
+Platforms like AWS IoT, Google Cloud IoT, or Microsoft Azure IoT provide more advanced features, but they also require more advanced knowledge to use effectively. It is a good ide to try them if we want to scale this project. 
 
 # Code 
 This code is for connecting the Temperatursensor NTC. 
