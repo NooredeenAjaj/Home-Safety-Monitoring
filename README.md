@@ -25,7 +25,7 @@ Additionally, we will require a breadboard and several jumpers to facilitate con
 
 | Material | price | Name and where to buy |
 |:--------:|:-------:|:-------:|
-|<img src="https://github.com/NooredeenAjaj/Home-Safety-Monitoring/blob/main/img/41015730.jpg" width="200" height="200"> | 39.00 SEK  | [Hall effect sensor  electrokit](https://www.electrokit.com/uploads/productimage/41015/41015730.jpg) |
+|<img src="https://github.com/NooredeenAjaj/Home-Safety-Monitoring/blob/main/img/41015730.jpg" width="200" height="200"> | 39.00 SEK  | [Hall effect sensor  electrokit](https://www.electrokit.com/en/product/hall-effect-sensor-digital/?gclid=Cj0KCQjwtamlBhD3ARIsAARoaEz4K_SZAPsYZiQbdPiIvTVaMWevwJ5bOuIs-PU0EqfoiAGeLyoSXgMaAkhdEALw_wcB) |
 |<img src="https://www.electrokit.com/uploads/productimage/41015/41015727.jpg" width="200" height="200"> | 39.00 SEK  | [Light sensor electrokit](https://www.electrokit.com/produkt/ljussensor/) |
 |<img src="https://www.electrokit.com/uploads/productimage/41015/41015732.jpg" width="200" height="200"> | 29.00 SEK  | [ Temperatursensor NTC electrokit](https://www.electrokit.com/produkt/temperatursensor-ntc/) |
 |<img src="https://www.electrokit.com/uploads/productimage/41019/PICO-WH-HERO.jpg" width="200" height="200"> | 109.00 SEK  | [ raspberry pi pico wh electrokit](https://www.electrokit.com/produkt/raspberry-pi-pico-wh/) |
