@@ -254,6 +254,7 @@ To begin with, we create feeds that function as APIs to the dashboard. Please fo
 - "noorMustafa/feeds/door"
 <br>
 These three feeds are linked to a dashboard where the results of all three sensors are presented.
+The information saved in the feeds will be kept for 30 days, as Adafruit's data storage policies.
 
 ### Final thoughts
 I think this project went really well. For improvement, I would choose different sensors, ones that are more efficient and specifically designed for things like fire detection. I'd also prefer a better sensor for detecting door openings.
