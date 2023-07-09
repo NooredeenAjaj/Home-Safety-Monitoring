@@ -225,6 +225,7 @@ try:
 # Transmitting the data / connectivity
 
 The data from the  sensors is transmitted to the Adafruit platform via the internet using the MQTT protocol over a Wi-Fi connection.
+It's worth mentioning that the permitted calls per minute for a free Adafruit account are 30 data points per minute. To maintain the limit for a free account, we send three data points every 8 seconds.
 
 Wi-Fi is good enough for the most . But, Wi-Fi consume battery  because it sends a lot of data and stays connected all the time. This can be a problem for devices running on battery. To save battery, you can set your device to sleep when it's not sending data.
 
@@ -239,7 +240,7 @@ To begin with, we create feeds that function as APIs to the dashboard. Please fo
 - "noorMustafa/feeds/door"
 <br>
 These three feeds are linked to a dashboard where the results of all three sensors are presented.
-It's worth mentioning that the permitted calls per minute for a free Adafruit account are 30 data points per minute. To maintain the limit for a free account, we send three data points every 8 seconds.
+
 
 
 
