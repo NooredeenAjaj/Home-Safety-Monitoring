@@ -15,13 +15,11 @@ The project aims to improve home security by observing unexpected door openings 
 
 For this project,  the microcontroller Raspberry Pi Pico WH is used . It offers numerous digital and analog inputs and outputs, and is equipped with a 2.4GHz wireless interface. For more info see [datasheet](https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf) .
 
-The temperature measurement, the Temperatursensor NTC was choosen, The reason is that it has a larger range. Its measurement range is sufficient for this project, with temperature accuracy from -55°C to +125°C.see [datasheet](https://www.electrokit.com/uploads/productfile/41015/41015732_-_Analog_Temperature_Sensor.pdf). and see the [userguide ](https://www.electrokit.com/uploads/productfile/41015/41015732_-_Analog_Temperature_Sensor.pdf)
+The temperature measurement, the Temperatursensor NTC was choosen, The reason is that it has a larger range. Its measurement range is sufficient for this project, with temperature accuracy from -55°C to +125°C.see [datasheet](https://www.electrokit.com/uploads/productfile/41015/41015732_-_Analog_Temperature_Sensor.pdf). 
 
+In order to measure the lighting in the room , we will use a Light sensor. It can be used as a simple light sensor where the amount of light determines the output signal. It can be directly connected to an analog input on a microcontroller. see [datasheet](https://www.electrokit.com/uploads/productfile/41015/41015727_-_Photoresistor_Module.pdf). 
 
-In order to measure the lighting in the room , we will use a Light sensor. It can be used as a simple light sensor where the amount of light determines the output signal. It can be directly connected to an analog input on a microcontroller. see [datasheet](https://www.electrokit.com/uploads/productfile/41015/41015727_-_Photoresistor_Module.pdf). And see hte[ userguide](https://www.electrokit.com/uploads/productfile/41015/41015727_-_Photoresistor_Module.pdf) 
-
-A Hall effect sensor for detecting magnetism. The sensor's output remains high as long as it is not in proximity to a magnet, and it pulls the output low when exposed to a magnetic field above a certain threshold. this sensor will  be placed nere by the door with a  magnet. see [datasheet](https://www.electrokit.com/uploads/productfile/41015/41015730_A314x-Datasheet.pdf) and the [user guide](https://www.electrokit.com/uploads/productfile/41015/41015730_-_Digital_Halleffect_Sensor.pdf). 
-
+A Hall effect sensor for detecting magnetism. The sensor's output remains high as long as it is not in proximity to a magnet, and it pulls the output low when exposed to a magnetic field above a certain threshold. this sensor will  be placed nere by the door with a  magnet. see [datasheet](https://www.electrokit.com/uploads/productfile/41015/41015730_A314x-Datasheet.pdf) 
 
 Additionally, we will require a breadboard and several jumpers to facilitate connections. A micro-USB cable is also necessary for connection to our computer, which will also function as our power source. 
 
