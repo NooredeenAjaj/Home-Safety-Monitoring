@@ -36,7 +36,7 @@ Additionally, we will require a breadboard and several jumpers to facilitate con
 |<img src="https://www.electrokit.com/uploads/productimage/41015/41015693.jpg" width="200" height="200"> | 29.00 SEK  | [ Jumper cables M-to-M electrokit](https://www.electrokit.com/produkt/labsladd-1-pin-hane-hane-150mm-10-pack/) |
 
 
-# Computer setup
+# Computer setup for a mac ios
 
 
 
