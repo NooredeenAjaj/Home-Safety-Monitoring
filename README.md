@@ -74,7 +74,7 @@ Additionally, we will require a breadboard and several jumpers to facilitate con
 # Putting everything together
 ### obs 
 
-<img src="./img/circet_bb.jpg" width="800" height="600">
+<img src="./img/circet_bb.jpg" width="1000" height="500">
 
 
 
