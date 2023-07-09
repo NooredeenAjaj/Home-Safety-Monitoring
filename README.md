@@ -67,7 +67,24 @@ Additionally, we will require a breadboard and several jumpers to facilitate con
 * A new drive named RPI-RP2, which is the Raspberry Pi Pico storage, should appear in your file system. Transfer the uf2 file that you downloaded earlier into this storage.
 *  Wait for the board to automatically disconnect and reconnect (or just discounnect ).
 <br>
-  
+Uploading and starting a new workspace
+
+
+- Install Git on your computer.
+- Open your terminal .
+- Type 'git --version' and press the Enter key. If you see a version number, it means Git is installed correctly.
+- Decide where you want the project to be on your computer.
+- Open your terminal again.
+- Type 'cd' followed by the path where you want the project. Press Enter.
+- Now, type '' and press Enter.
+
+
+
+
+- Plug your development board into the USB and open VS Code.
+- On the right panel, click on the Pymakr extension. Then, follow the steps shown in the next image to open the REPL (Read-Eval-Print Loop) for your board in the terminal.
+
+
 
 # Putting everything together
 ### obs 
