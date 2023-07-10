@@ -88,7 +88,7 @@ Uploading
 # Putting everything together
 ### obs 
 
-<img src="./img/circet_bb.jpg" width="1000" height="500">
+<img src="./img/circet_bb.jpg" >
 
 
 
