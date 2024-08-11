@@ -266,16 +266,5 @@ I think this project went really well. For improvement, I would choose different
 
 
 
-# Finalizing the design
-the door is closed and all is secure
-<br>
-<img src="./img/closeDoor.jpg" width="500" height="300">
-<img src="./img/CLOSED.jpg" width="500" height="300">
-<br><br>
-the door is oppen
-<br>
-<br>
-<img src="./img/oppenDoor2.jpg" width="500" height="300">
-<img src="./img/OPENED.jpg" width="500" height="300">
 
 
